@@ -4,7 +4,6 @@ import os
 import datetime
 import threading
 
-SLEEP_TIME = 86400 #一日
 FILEIN_DICT = "config.yaml"
 
 def StartBackup():
@@ -23,12 +22,6 @@ def StartBackup():
 	print wget
 	os.system(wget)
 
-	t = threading.Timer(SLEEP_TIME, StartBackup)
-	t.start()
-
-
 if __name__ == "__main__":
-
-	t = threading.Timer(SLEEP_TIME, StartBackup)
-	t.start()
+	StartBackup()
 
