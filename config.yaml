@@ -1,0 +1,7 @@
+#  url　: ftpサーバのアドレス
+#　user : ユーザー名
+#　pass : パスワード
+
+url : ftp.example.com
+user : hoge
+pass : huga
