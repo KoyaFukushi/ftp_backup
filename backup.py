@@ -13,8 +13,6 @@ def StartBackup():
 	#ドキュメントルートをバックアップするパス
 	path = "./" + current_time + "/"
 
-
-
 	f = open("./" + FILEIN_DICT, 'r')
 	conf = yaml.load(f)
 	f.close()
