@@ -5,4 +5,4 @@ backup_ftp
 
 config.yamlに設定を書き込んで、実行してください。
 
-clonとかで登録してつかってね〜
+cronとかで登録してつかってね〜
